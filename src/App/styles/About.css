@@ -1,0 +1,24 @@
+.about-details {
+    display: flex;
+}
+
+.about-details > img {
+    height: 500px;
+    width: auto;
+    margin: 40px;
+}
+
+.about-text {
+    padding: 50px;
+    font-family: 'Josefin Slab', serif;    
+}
+
+.about-text > h2 {
+    font-size: 45px;
+    color: #e7b91b;
+}
+
+.about-text > p {
+    margin-bottom: 35px;
+    font-size: 24px;
+}

@@ -1,0 +1,61 @@
+.homepage {
+    background-color: black;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    flex-direction: column;
+    font-family: 'Josefin Slab', serif;
+    width: 100vw;
+}
+
+.name {
+    letter-spacing: 40px;
+    padding: 25px;
+    font-family: 'Josefin Slab', serif;
+    transition: color 1s ease-in-out;
+    color: white;
+    margin-bottom: 45px;
+}
+
+.name:hover {
+    color: #ffda09;
+    cursor: pointer;
+}
+
+.nav-buttons {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.enter, .projects-button {
+    padding: 13px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-buttons > a {
+    text-decoration: none;
+}
+
+.enter:hover, .projects-button:hover {
+    animation: pulse .5s ease-out 0s alternate infinite none running;
+}
+
+@keyframes pulse {
+    0% {
+        color: white;
+    }
+    100% {
+        transform: scale(1.2);
+        box-shadow: 0 8px 6px -6px white;
+    }
+}

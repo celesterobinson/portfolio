@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    height: 100px;
+    border-bottom: 1px solid #e7b91b;
+}
+
+.links {
+    display: flex;
+}
+
+.links > a {
+    color: white;
+    text-decoration: none;
+    margin: 10px 30px;
+    font-size: 40px;
+    font-family: 'Josefin Slab', serif;    
+}
+
+.links > a:hover {
+    animation: pulse .5s ease-out 0s alternate infinite none running;
+}
+
+@keyframes pulse {
+    100% {
+        transform: scale(1.2);
+    }
+}
