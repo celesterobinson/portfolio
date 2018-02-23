@@ -9,19 +9,19 @@
     flex-direction: column;
     font-family: 'Josefin Slab', serif;
     width: 100vw;
+    background-image: url("../images/trees.jpg");
+    background-size: cover;
 }
 
 .name {
-    letter-spacing: 40px;
+    letter-spacing: 30px;
     padding: 25px;
     font-family: 'Josefin Slab', serif;
     transition: color 1s ease-in-out;
-    color: white;
-    margin-bottom: 45px;
+    color: #ffda09;
 }
 
 .name:hover {
-    color: #ffda09;
     cursor: pointer;
 }
 
@@ -29,6 +29,7 @@
     display: flex;
     width: 300px;
     justify-content: space-between;
+    margin-top: 100px;
 }
 
 .enter, .projects-button {
@@ -39,7 +40,10 @@
     cursor: pointer;
     border-radius: 5px;
     color: white;
+    background-color: rgba(0, 0, 0, 0.1);
     text-decoration: none;
+    border: 1px solid white;
+    
 }
 
 .nav-buttons > a {
@@ -56,6 +60,6 @@
     }
     100% {
         transform: scale(1.2);
-        box-shadow: 0 8px 6px -6px white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
     }
 }

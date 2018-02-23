@@ -10,7 +10,9 @@ class Homepage extends Component {
     render() {
         return (
             <div className="homepage">
+                <h2>Hey. Thanks for visiting. I'm</h2>
                 <h1 className="name">C&eacute;leste Robinson</h1>
+                <h2>Web developer, gamer, and Harry Potter addict.</h2>
                 <div className="nav-buttons">
                     <Link to="/about">
                         <div className="enter">
