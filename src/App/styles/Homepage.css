@@ -13,6 +13,10 @@
     background-size: cover;
 }
 
+.homepage > h2 {
+    text-align: center;
+}
+
 .name {
     letter-spacing: 30px;
     padding: 25px;
@@ -61,5 +65,42 @@
     100% {
         transform: scale(1.2);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+    }
+}
+
+@media(max-width: 869px) {
+    .homepage {
+       padding: 50px; 
+    }
+    .name {
+        padding: 25px 0;
+        letter-spacing: 15px;
+    }
+}
+
+@media(max-width: 679px) {
+    .name {
+        letter-spacing: 5px;
+    }
+    .nav-buttons {
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 519px) {
+    .name {
+        letter-spacing: 1px;
+    }
+}
+
+@media(max-width: 455px) {
+    .homepage {
+        padding: 10px;
+    }
+    .name {
+        font-size: 40px;
+    }
+    .homepage > h2 {
+        font-size: 30px;
     }
 }
