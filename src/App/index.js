@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Switch, Route } from "react-router-dom";
-import { HashLink as Link } from 'react-router-hash-link';
 import Navbar from "./Navbar";
 import Homepage from "./routes/Homepage";
 import About from "./routes/About";
@@ -18,7 +17,7 @@ class App extends Component {
     render() {
     //let red = check for boolean value scrolling ? "red" : ""        
         return (
-            <div className={`app-wrapper ${red}`}>
+            <div className="app-wrapper">
                 <Navbar className="scrolled"/>
                 <Switch>
                     <Route exact path="/" component={Homepage} />

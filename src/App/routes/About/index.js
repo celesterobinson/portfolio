@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Navbar from "../../Navbar";
-import Footer from "../../Footer";
 import headshot from "../../images/headshot.JPG";
 
 import "../../styles/About.css";
@@ -9,6 +8,7 @@ class About extends Component {
     render() {
         return (
             <div style={{ color: "white" }} className="about-wrapper">
+                <Navbar />
                 <div className="about-details" id="about">
                     <img src={headshot} alt="Celeste Robinson" />
                     <div className="about-text">
