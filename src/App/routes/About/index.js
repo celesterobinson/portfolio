@@ -8,9 +8,8 @@ import "../../styles/About.css";
 class About extends Component {
     render() {
         return (
-            <div style={{ color: "white" }}>
-                <Navbar />
-                <div className="about-details">
+            <div style={{ color: "white" }} className="about-wrapper">
+                <div className="about-details" id="about">
                     <img src={headshot} alt="Celeste Robinson" />
                     <div className="about-text">
                         <h2>Bio</h2>
@@ -23,8 +22,6 @@ class About extends Component {
                         </p>
                     </div>
                 </div>
-
-                <Footer />
             </div>
         )
     }

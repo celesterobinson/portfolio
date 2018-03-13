@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 
 import "../styles/Navbar.css";
 
@@ -7,9 +7,9 @@ function Navbar() {
     return (
         <div className="navbar">
             <div className="links">
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/projects">Projects</Link>
+                <Link smooth to="/#home">Home</Link>
+                <Link smooth to="/#about">About</Link>
+                <Link smooth to="/#projects">Projects</Link>
             </div>
         </div>
     )

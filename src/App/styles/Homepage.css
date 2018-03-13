@@ -1,7 +1,5 @@
 .homepage {
-    background-color: black;
     height: 100vh;
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,6 +13,7 @@
 
 .homepage > h2 {
     text-align: center;
+    color: white;
 }
 
 .name {
@@ -34,20 +33,6 @@
     width: 300px;
     justify-content: space-between;
     margin-top: 100px;
-}
-
-.enter, .projects-button {
-    padding: 13px 10px 10px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    border-radius: 5px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.1);
-    text-decoration: none;
-    border: 1px solid white;
-    
 }
 
 .nav-buttons > a {
