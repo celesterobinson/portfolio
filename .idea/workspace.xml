@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ec21554-0b97-4127-af5b-9fa139813cbd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App/routes/About/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/routes/About/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/routes/Homepage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/routes/Homepage/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/styles/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/styles/Navbar.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,7 +45,7 @@
         <counts>
           <entry key="css" value="56" />
           <entry key="html" value="1" />
-          <entry key="js" value="978" />
+          <entry key="js" value="1010" />
           <entry key="toml" value="77" />
           <entry key="txt" value="1" />
         </counts>
@@ -56,7 +54,7 @@
         <counts>
           <entry key="CSS" value="56" />
           <entry key="HTML" value="1" />
-          <entry key="JavaScript" value="978" />
+          <entry key="JavaScript" value="1010" />
           <entry key="PLAIN_TEXT" value="78" />
         </counts>
       </usages-collector>
@@ -73,7 +71,7 @@
             <entry file="file://$PROJECT_DIR$/src/App/routes/Homepage/index.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="230">
-                  <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+                  <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -359,7 +357,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13149000" />
+    <option name="totallyTimeSpent" value="13289000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,7 +372,7 @@
     <frame x="1001" y="23" width="2439" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49953574" visible="true" weight="0.12572373" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49953574" visible="true" weight="0.12572373" />
       <window_info id="Structure" order="1" show_stripe_button="false" sideWeight="0.50038195" side_tool="true" weight="0.17716303" />
       <window_info id="npm" order="2" sideWeight="0.50046426" side_tool="true" weight="0.32960564" />
       <window_info id="Favorites" order="3" sideWeight="0.50046426" side_tool="true" weight="0.32960564" />
@@ -388,7 +386,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32925898" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49961802" visible="true" weight="0.21772346" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49961802" visible="true" weight="0.21772346" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -502,7 +500,7 @@
     <entry file="file://$PROJECT_DIR$/src/App/routes/Homepage/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
