@@ -24,8 +24,7 @@ export default class Info extends Component {
                     <p>Click<a
                         className="Info-link"
                         id="conversionLink"
-                        href="https://www.cececodes.com"
-
+                        href="https://www.cececodes.com/#home"
                     > here</a> for a free consultation, <br/>and get your website started TODAY!</p>
                 </header>
                 <footer>
