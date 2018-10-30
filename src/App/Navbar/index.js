@@ -7,9 +7,9 @@ function Navbar() {
     return (
         <div className="navbar">
             <div className="links">
-                <Link smooth to="/#home">Home</Link>
-                <Link smooth to="/#about">About</Link>
-                <Link smooth to="/#projects">Projects</Link>
+                <Link smooth to="/home">Home</Link>
+                <Link smooth to="/about">About</Link>
+                <Link smooth to="/projects">Projects</Link>
             </div>
         </div>
     )
