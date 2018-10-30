@@ -1,0 +1,5 @@
+[[redirects]]
+    from = "/"
+    to = "/home"
+    status = 302
+    force = true
