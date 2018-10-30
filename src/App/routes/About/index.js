@@ -8,7 +8,7 @@ class About extends Component {
     render() {
         return (
             <div>
-                <Navbar />
+                <Navbar style={{color: "black"}}/>
                 <div style={{ color: "white" }} className="about-wrapper">
                     <div className="about-details" id="about">
                         <img src={headshot} alt="Celeste Robinson" />
