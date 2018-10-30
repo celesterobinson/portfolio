@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../../styles/Homepage.css";
 
-class Homepage extends Component {
+export default class Homepage extends Component {
 
     render() {
         return (
@@ -13,5 +13,3 @@ class Homepage extends Component {
         )
     }
 }
-
-export default Homepage;

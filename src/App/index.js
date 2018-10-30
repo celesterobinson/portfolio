@@ -1,21 +1,21 @@
 import React, { Component } from "react";
 import { Switch, Route } from "react-router-dom";
-import Homepage from "./routes/Homepage";
+import Homepage from "./routes/Homepage/index.js";
 import About from "./routes/About";
 import Projects from "./routes/Projects";
 import Info from "./routes/Info";
 import "./styles/App.css";
 
-class App extends Component {
-    constructor(props) {
-        super(props);
-        this.setState = {
-            scrolled: false
-        }
-    }
+export default class App extends Component {
+    // constructor(props) {
+    //     super(props);
+    //     this.setState = {
+    //         scrolled: false
+    //     }
+    // }
 
     render() {
-    //let red = check for boolean value scrolling ? "red" : ""        
+        //let red = check for boolean value scrolling ? "red" : ""
         return (
             <div className="app-wrapper">
                 <Switch>
@@ -28,5 +28,3 @@ class App extends Component {
         )
     }
 }
-
-export default App;
