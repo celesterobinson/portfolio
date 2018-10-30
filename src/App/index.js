@@ -19,10 +19,10 @@ class App extends Component {
         return (
             <div className="app-wrapper">
                 <Switch>
-                    <Route exact path="/" component={Homepage} />
+                    <Route exact path="/" component={Info} />
                     <Route path="/about" component={About} />
                     <Route path="/projects" component={Projects} />
-                    <Route path="/info" component={Info} />
+                    <Route path="/home" component={Homepage} />
                 </Switch>
             </div>
         )

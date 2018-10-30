@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import "../../styles/Homepage.css";
 
 class Homepage extends Component {
-    componentDidMount() {
-
-    }
 
     render() {
         return (
