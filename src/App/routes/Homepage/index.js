@@ -4,15 +4,6 @@ import Navbar from "../../Navbar/index.js";
 
 
 export default class Homepage extends Component {
-    componentDidMount() {
-        const script = document.createElement("script");
-
-        script.src = "//assets.adobedtm.com/staging/launch-EN329a0eb01cc7428da8d2487a6692d5a1-development.min.js";
-        script.async = true;
-
-        document.body.appendChild(script);
-    }
-
     render() {
         return (
             <div>
