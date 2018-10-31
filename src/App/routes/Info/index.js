@@ -3,16 +3,6 @@ import logo from '../../../logo.svg';
 import '../../styles/Info.css';
 
 export default class Info extends Component {
-
-    componentDidMount() {
-        const script = document.createElement("script");
-
-        script.src = "//assets.adobedtm.com/staging/launch-EN7f97a37873ab48a990b1848cefe1f58d-development.min.js";
-        script.async = true;
-
-        document.body.appendChild(script);
-    }
-
     render() {
         return (
             <div className="Info">
