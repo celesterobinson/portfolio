@@ -19,7 +19,5 @@
     "eject": "react-scripts eject",
     "cypress:open": "cypress open"
   },
-  "devDependencies": {
-    "cypress": "^3.1.0"
-  }
+  "devDependencies": {}
 }
