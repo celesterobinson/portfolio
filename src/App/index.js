@@ -6,6 +6,8 @@ import Projects from "./routes/Projects";
 import Info from "./routes/Info";
 import "./styles/App.css";
 
+window.dataLayer = window.dataLayer || [];
+
 export default class App extends Component {
     // constructor(props) {
     //     super(props);
